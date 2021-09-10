@@ -1,0 +1,40 @@
+header {
+    text-align: center;
+}
+header h1 {
+    text-transform: uppercase;
+    color: #307cd3;
+}
+.Mayor {
+    display: flex;
+    justify-content: center;
+    column-gap: 10em;
+    row-gap: 5em;
+    flex-wrap: wrap;
+}
+.Menor {
+    padding: 1em;
+    border-radius: 5%;
+    width: 20em;
+    height: 10em;
+    background-color: #307cd3;
+}
+
+input {
+    padding: 2% 4%;
+    margin: 2%;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid #6cffb5;
+}
+
+button {
+    margin-top: 5%;
+    padding: 5px 12px;
+    border-radius: 4px;
+    border: 1px solid #6cffb5;
+}
+
+form[id="triangulo"] input {
+    width: 16%;
+}
