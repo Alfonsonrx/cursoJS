@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #307cd3;
+}
+
+.Mayor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.Menor {
+    display: flex;
+    padding: 15px 15px 0px 15px;
+    border-radius: 1em;
+    border: 0.3rem solid #6cffb5;
+    flex-direction: column;
+}
+
+.ingresoDato {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0.5em;
+}
+
+input {
+    border-radius: 0.5em;
+    border: 0.1rem solid #ff6c6c;
+}
+
+button {
+    margin-top: 5%;
+    padding: 5px 12px;
+    border-radius: 0.5em;
+    border: 0.2em solid #6cffb5;
+}

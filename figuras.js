@@ -133,6 +133,5 @@ function calcularAreaCirculo() {
     const area = areaCirculo(radio.value);
     alert(area);
 }
-
-
+document.setE
 console.groupEnd();
